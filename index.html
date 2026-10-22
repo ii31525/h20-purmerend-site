@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H20 Purmerend | Vraag de AI</title>
+    <meta
+      name="description"
+      content="H20 Purmerend. Vraag alles over openingstijden, activiteiten, contact en meer aan de H20 AI."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand" aria-label="H20 Purmerend">
+          <div class="brand-mark">H20</div>
+          <div>
+            <strong>H20</strong>
+            <span>Purmerend</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+          <a href="#over">Over</a>
+          <a href="#openingstijden">Openingstijden</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-primary" href="#chat">Vraag de AI</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <span class="eyebrow">Welkom bij H20 Purmerend</span>
+            <h1>Alles over H20, direct binnen handbereik.</h1>
+            <p>
+              Heeft u een vraag over de openingstijden, activiteiten, locatie of
+              contactgegevens? Stel uw vraag aan de H20 AI en ontvang direct een
+              antwoord.
+            </p>
+
+            <div class="cta-group">
+              <a class="button button-primary" href="#chat">Stel een vraag</a>
+              <a class="button button-secondary" href="#faq">Bekijk veelgestelde vragen</a>
+            </div>
+
+            <ul class="highlights" aria-label="Voordelen">
+              <li>Snelle antwoorden</li>
+              <li>Openingstijden & locatie</li>
+              <li>Activiteiten & contact</li>
+            </ul>
+          </div>
+
+          <aside class="chat-panel" id="chat" aria-live="polite">
+            <div class="chat-header">
+              <div class="status-dot"></div>
+              <div>
+                <strong>H20 AI</strong>
+                <small>Online</small>
+              </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+              <div class="message bot">
+                <p>Hoi! Ik help je graag met vragen over H20 Purmerend.</p>
+              </div>
+            </div>
+
+            <div class="quick-questions" aria-label="Voorbeeldvragen">
+              <button class="quick-question" type="button">Hoelaat gaat H20 open?</button>
+              <button class="quick-question" type="button">Waar is H20?</button>
+              <button class="quick-question" type="button">Welke activiteiten zijn er?</button>
+            </div>
+
+            <form class="chat-input" id="chatForm">
+              <label class="sr-only" for="userInput">Typ je vraag</label>
+              <input
+                id="userInput"
+                type="text"
+                placeholder="Typ je vraag…"
+                autocomplete="off"
+              />
+              <button type="submit" aria-label="Verstuur vraag">→</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <section class="info-strip" id="over">
+        <div class="container stats">
+          <div class="stat-card">
+            <strong>Open</strong>
+            <span>Meerdere dagen per week</span>
+          </div>
+          <div class="stat-card">
+            <strong>Locatie</strong>
+            <span>In het hart van Purmerend</span>
+          </div>
+          <div class="stat-card">
+            <strong>Activiteiten</strong>
+            <span>Voor jong en oud</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="openingstijden">
+        <div class="container section-grid">
+          <div>
+            <span class="eyebrow">Openingstijden</span>
+            <h2>Plan je bezoek eenvoudig</h2>
+          </div>
+
+          <div class="card-list">
+            <article class="info-card">
+              <h3>Openingstijd</h3>
+              <p>H20 is meestal dagelijks geopend van <strong>10:00</strong> tot <strong>22:00</strong>.</p>
+            </article>
+            <article class="info-card">
+              <h3>Weekend</h3>
+              <p>In het weekend kun je rekenen op een uitgebreid programma en iets langere openingsuren.</p>
+            </article>
+            <article class="info-card">
+              <h3>Evenementen</h3>
+              <p>Bij speciale activiteiten kunnen de openingstijden afwijken. Controleer deze op de website of via contact.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="faq">
+        <div class="container">
+          <span class="eyebrow">Veelgestelde vragen</span>
+          <h2>Alles wat bezoekers vaak vragen</h2>
+
+          <div class="faq-list">
+            <details open>
+              <summary>Hoe laat gaat H20 open?</summary>
+              <p>H20 is meestal geopend vanaf ongeveer <strong>10:00</strong> uur.</p>
+            </details>
+            <details>
+              <summary>Waar is H20 Purmerend?</summary>
+              <p>H20 Purmerend ligt in het centrum van Purmerend. Neem contact op voor het exacte adres en routebeschrijving.</p>
+            </details>
+            <details>
+              <summary>Welke activiteiten zijn er?</summary>
+              <p>H20 biedt uiteenlopende activiteiten, evenementen en ontmoetingen voor verschillende doelgroepen.</p>
+            </details>
+            <details>
+              <summary>Hoe kan ik contact opnemen?</summary>
+              <p>Je kunt contact opnemen via de contactgegevens of het contactformulier op deze pagina.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-box">
+          <div>
+            <span class="eyebrow">Contact</span>
+            <h2>Vragen? We helpen je graag.</h2>
+            <p>
+              Ben je benieuwd naar de openingstijden, een event of een specifieke
+              activiteit? Neem contact op en wij helpen je verder.
+            </p>
+          </div>
+
+          <ul class="contact-list">
+            <li><strong>Adres:</strong> Purmerend, Nederland</li>
+            <li><strong>Email:</strong> info@h20purmerend.nl</li>
+            <li><strong>Telefoon:</strong> +31 (0)299 123 456</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© 2026 H20 Purmerend</span>
+        <span>Vraag de AI • Openingstijden • Contact</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
